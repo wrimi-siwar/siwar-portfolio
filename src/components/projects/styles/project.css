@@ -81,14 +81,16 @@
 .project-container {
 	background-color: white ; /* Couleur d'arrière-plan */
 	padding: 20px; /* Espace intérieur */
-	border: 1px solid #ddd; /* Bordure */
+	
 	margin-bottom: 20px; /* Marge inférieure entre les projets */
 	mix-blend-mode: normal;
 	border-radius: 5px;
 	opacity: 0.8;
-	height: 500px;
+	height:500px;
 	position: relative; /* Position relative pour que la position fixe soit relative à ce conteneur */
 	transition: transform 0.2s ease;
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+
 
   }
   .project-container:hover {
@@ -101,7 +103,7 @@
 	font-size: 18px; /* Taille de police du titre */
 	font-weight: bold; /* Gras */
 	font-family: var(--secondary-font);
-	color: blue;
+	color: #00353F;
 	font-size: 18px;
 	padding-top: 10px;
 	margin-bottom: 1em;
@@ -113,24 +115,31 @@
   .project-description {
 	 /* Hauteur spécifique */
 	overflow: hidden; /* Masquer le contenu dépassant de la hauteur spécifiée */
-	min-height: 230px;
+	min-height: 220px;
   }
   
   /* Style pour la partie compétences */
   .project-skills {
-	font-style: italic; /* Style italique pour les compétences */
-	min-height: 70px;
 	position: absolute;
-	bottom: 10px;
+	top: 85%;
 	left: 0;
 	right: 0; /* Ajoutez cette ligne pour centrer horizontalement le contenu */
 	text-align: center;
+		font-weight: bold; /* Gras */
+
+	color:#5784BA;
+	/*#00353F*/
   }
   
+  .skill{
+	margin: 2px;
+	display: inline-block;
+  margin-right: 15px;
+  }
   /* Style pour l'icône du lien GitHub */
   .github-link {
 	position: absolute;
-	bottom: 10px; /* Ajustez la valeur pour contrôler la distance par rapport au bas */
+	top: 95%; /* Ajustez la valeur pour contrôler la distance par rapport au bas */
 	left: 0;
 	right: 0;
 	text-align: center;
@@ -139,7 +148,7 @@
   /* Style pour l'icône du lien GitHub (optionnel) */
   .github-link a {
 	text-decoration: none; /* Supprimer la décoration du lien */
-	color: blue; /* Couleur du lien */
+	color: #00353F; /* Couleur du lien */
 	font-size: 18px; /* Taille de police du lien */
   }
   

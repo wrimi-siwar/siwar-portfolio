@@ -9,6 +9,7 @@
 
 .homepage-container {
 	padding-top: 25px;
+	
 }
 
 .homepage-first-area {
@@ -79,18 +80,39 @@
 }
 
 .homepage-articles {
-	flex-basis: 900px;
+	display: flex;
+	flex-wrap: wrap;
 	padding-top: 30px;
-	margin-left: -30px;
+	margin-left: -10px;
+	align-items: center;
+	margin: 20px;
 }
 
 .homepage-article {
-	padding-bottom: 5px;
-}
 
+  padding: 5px; /* Réduisez le padding pour permettre plus d'éléments par ligne */
+  overflow: hidden;
+  flex-basis: calc(23% - 20px);
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  color: #5784BA;
+  font-weight: bold; /* Gras */
+  margin: 10px;
+  text-align: center;
+  border-radius: 5px;
+
+
+
+}
+.skillsHome{
+	text-align: center;
+	font-weight: bold;
+	color: var(--secondary-color);
+
+}
 .homepage-works {
 	flex-basis: 600px;
 	padding-top: 30px;
+	margin: 10px;
 }
 
 @media (max-width: 1024px) {
@@ -144,7 +166,7 @@
 
 	.homepage-works {
 		flex-basis: auto;
-		margin-left: -25px;
+		margin-left: 35px;
 		margin-right: -25px;
 	}
 }

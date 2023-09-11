@@ -34,13 +34,14 @@ const Contact = () => {
 				<div className="content-wrapper">
 					<div className="contact-logo-container">
 						<div className="contact-logo">
-							<Logo width={46} />
+							<Logo width={46} link={false} />
 						</div>
 					</div>
 
 					<div className="contact-container">
 						<div className="title contact-title">
-							Let's Get in Touch: Ways to Connect with Me
+							{/**Let's Get in Touch: Ways to Connect with Me */}
+							Get in Touch
 						</div>
 
 						<div className="subtitle contact-subtitle">

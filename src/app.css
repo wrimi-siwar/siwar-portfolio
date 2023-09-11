@@ -49,7 +49,8 @@
 }
 
 .title {
-	color: var(--primary-color);
+	color :#D46F4D;
+	/*color: var(--primary-color); */
 	font-family: var(--secondary-font);
 	font-size: 45px;
 	font-weight: 700;
@@ -121,3 +122,18 @@
 		width: 100%;
 	}
 }
+body{
+	background-color: var(--bg-color);
+	color: var(--text-color);
+}
+
+body.light-theme {
+	--bg-color: #ffffff;
+	--text-color: #333333;
+  }
+  
+  /* Thème sombre */
+  body.dark-theme {
+	--bg-color: #333333;
+	--text-color: #ffffff;
+  }

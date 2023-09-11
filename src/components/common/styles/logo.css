@@ -1,6 +1,17 @@
 .logo {
-	border-radius: 50%;
+	border-radius: 30%;
 	display: block;
 	margin: 0;
 	padding: 0;
+}
+.nameLogo{
+	font-weight: bold;
+	font-family: 'Courier New', Courier, monospace;
+	color: #00353F;
+	font-size: 40px;
+}
+.nameLogo :hover{
+	opacity: 1;
+	transition: background-color 0.3s ease-in-out;
+	transform: translateY(-8px);
 }

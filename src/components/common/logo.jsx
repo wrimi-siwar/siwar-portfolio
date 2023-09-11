@@ -12,13 +12,14 @@ const Logo = (props) => {
 		link = true;
 	}
 
-	const imageElement = (
-		<img src={INFO.main.logo} alt="logo" className="logo" width={width} />
-	);
+	const imageElement = INFO.main.logo
+		;
 
 	return (
 		<React.Fragment>
+			<div className="nameLogo">
 			{link ? <Link to="/">{imageElement}</Link> : imageElement}
+			</div>
 		</React.Fragment>
 	);
 };

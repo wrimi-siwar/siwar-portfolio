@@ -3,7 +3,7 @@ const INFO = {
 		title: "Reactfolio by truethari",
 		name: "Tharindu N.",
 		email: "wrimi.siwar14@gmail.com",
-		logo: "../logo.png",
+		logo: "S.W",
 	},
 
 	socials: {
@@ -16,7 +16,7 @@ const INFO = {
 	homepage: {
 		title: "Full-stack web developer.",
 		description:
-			"As a highly motivated software engineering student, my passion for full-stack development drives me forward. I possess a meticulous attention to detail and an unquenchable thirst for knowledge, consistently seeking opportunities to expand my skill set.",
+			" As a highly motivated software engineering student, my passion for full-stack development drives me forward. I possess a meticulous attention to detail and an unquenchable thirst for knowledge, consistently seeking opportunities to expand my skill set. Whether it involves crafting cutting-edge web applications or tackling intricate systems integrations, I constantly strive to push the boundaries of what's achievable. Beyond coding, you'll often find me immersed in the latest tech trends or embracing new technologies. I perpetually seek fresh challenges and eagerly embrace collaborative opportunities with fellow enthusiasts in the field. My ultimate objective is to leverage my technical prowess and creativity to develop solutions that drive business growth and enhance the lives of individuals. Join me on this journey, and together, let's revolutionize the future!",
 	},
 
 	about: {
@@ -30,75 +30,103 @@ const INFO = {
 		description:
 			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
 	},
-
+	skills: [
+		"JavaScript",
+		"TypeScript",
+		"Java",
+		"React.js",
+		"Material UI",
+		"Node.js",
+		"Express.js",
+		"MongoDB",
+		"MySQL",
+		"Android",
+		"Git",
+		"Agile",
+	],
 	projects: [
 		{
-			title: "Gestion Universitaire : Application Web MERN",
+			title: "University Management: MERN Web Application",
 			description:
-				"Cette application web, développée en utilisant la stack MERN (MongoDB, Express, React, Node.js), est spécifiquement conçue pour une gestion universitaire efficace. Dotée d'une interface moderne et conviviale construite avec React et le design MUI, elle permet aux administrateurs de gérer efficacement une grande variété d'entités universitaires, notamment les étudiants, les enseignants, les projets, les événements, les clubs, et bien plus encore.",
+				"This web application, developed using the MERN stack (MongoDB, Express, React, Node.js), is specifically designed for efficient university management. Equipped with a modern and user-friendly interface built with React and MUI design, it enables administrators to efficiently manage a wide range of university entities, including students, faculty, projects, events, clubs, and much more.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "https://github.com",
+			skills: ["MongoDB", " ExpressJS ", "ReactJS", "NodeJS"],
 		},
 
 		{
-			title: "Application Mobile, Web pour la Gestion de Livraison pour BELMWASSEL",
+			title: "Mobile and Web Application for BELMWASSEL Delivery Management",
 			description:
-				"Le projet présente une rénovation totale de BELMWASSEL, intégrant une application mobile innovante développée en React Native, un site web optimisé créé avec Angular, et un backend solide basé sur Spring Boot. En plus des fonctionnalités de livraison, le projet étend les capacités de gestion d'accès automatisée pour divers utilisateurs, et une section dédiée aux statistiques pour soutenir des décisions éclairées.",
+				"The project represents a complete renovation of BELMWASSEL, incorporating a groundbreaking mobile application developed in React Native, an optimized website built with Angular, and a robust backend based on Spring Boot. In addition to delivery features, the project expands its capabilities by introducing automated access management for various users and a dedicated statistics section to facilitate informed decision-making.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Project",
 			link: "https://github.com",
+			skills: ["AngularJS ", "Spring Boot ", "React native", "Mysql"],
 		},
 
 		{
-			title: "ElectioTech : Gestion des Campagnes Électorales",
+			title: "ElectioTech: Electoral Campaign Management",
 			description:
-				"ElectioTech est une solution de gestion électorale novatrice qui prend la forme d'une application web dédiée à la gestion complète des campagnes électorales. Cette plateforme repose sur une infrastructure technique solide. Elle offre une gestion efficace et sécurisée pour tous les aspects du processus démocratique, garantissant ainsi une conduite transparente et responsable des élections.",
+				"ElectioTech is an innovative electoral management solution in the form of a web application designed for comprehensive electoral campaign management. This platform is built on a robust technical infrastructure, providing efficient and secure management for all aspects of the democratic process, thereby ensuring a transparent and responsible conduct of elections.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
 			linkText: "View Project",
 			link: "https://github.com",
+			skills: ["AngularJS ", " Spring Boot"],
 		},
 
 		{
-			title: "Projet de Base de Données Réparties : Fragmentation et Allocation Distribuées",
+			title: "Distributed Database Project: Fragmentation, Allocation, and Distributed Queries",
 			description:
-				"Ce projet se focalise sur la fragmentation, l'allocation et la création de méta-données détaillant l'architecture d'une Base de Données Répartie. Il comprend la mise en place de méthodes d'exécution de requêtes basées sur ces données, ainsi qu'un réseau local statistique connectant les différents sites pour une approche dynamique et évolutive.",
+				"This project focuses on fragmentation, allocation, and the creation of metadata detailing the architecture of a Distributed Database. It includes the establishment of query execution methods based on this data, as well as a statistical local network connecting various sites for a dynamic and scalable approach.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "https://github.com",
+			skills: ["Oracle Database", "MySQL"],
 		},
 
 		{
-			title: "COVID-19 Monitor : Suivi et Gestion Complète",
+			title: "COVID-19 Monitor: Comprehensive Tracking and Management",
 			description:
-				"Suivi de la COVID-19 : Administration & Données Mondiales ; Un projet novateur de gestion de la COVID-19, qui intègre des fonctionnalités, des structures de classe, et des interfaces pour les administrateurs et les utilisateurs. Bâti sur une architecture robuste en Java, cette solution fournit une gestion précise et des informations cruciales sur la pandémie.",
+				"COVID-19 Tracking: Global Administration & Data; An Innovative COVID-19 Management Project that incorporates features, class structures, and interfaces for both administrators and users. Built on a robust Java architecture, this solution provides precise management and crucial information about the pandemic. ",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "https://github.com",
+			skills: ["Oracle Database", " Oracle", "Java Swing", "Java"],
 		},
 		{
-			title: "Gestion Électorale via une Application Windows Java",
+			title: "Election Management through a Java-based Windows Application",
 			description:
-				"Le système prend en charge la gestion exhaustive des électeurs, des bureaux de vote et des partis politiques. Il offre la possibilité d'inclure, de réviser et de retirer des informations concernant les électeurs, de rechercher des électeurs par bureau de vote, tout en permettant des opérations similaires pour les partis politiques, notamment la mise à jour de leurs informations telles que les noms, les symboles et les zones géographiques.",
+				"The system provides comprehensive management of voters, polling stations, and political parties. It allows for the inclusion, revision, and removal of voter information, as well as searching for voters by polling station. Similar operations are available for political parties, including updating their details such as names, symbols, and geographic areas.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "https://github.com",
+			skills: ["Java Swing", "Java", "MySQL"],
 		},
 		{
-			title: "Nadhemni : Application desktop de Gestion Personnelle et Professionnelle",
+			title: "Nadhemni: Personal and Professional Desktop Management Application",
 			description:
-				"Nadhemni (Organize Me) est une application de bureau conçue pour améliorer l'organisation de votre vie personnelle et professionnelle. Cette solution complète vous permet de gérer votre emploi du temps, vos rendez-vous, vos tâches, ainsi que des aspects financiers importants, notamment le suivi des factures. Avec 'Nadhemni', simplifiez votre quotidien et prenez le contrôle de vos responsabilités et de votre productivité.",
+				"Nadhemni (Organize Me) is a desktop application designed to enhance the organization of your personal and professional life. This comprehensive solution enables you to manage your schedule, appointments, tasks, as well as important financial aspects, including invoice tracking. With 'Nadhemni', simplify your daily life and take control of your responsibilities and productivity.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "https://github.com",
+			skills: [" Microsoft SQL Server", " C#"],
 		},
 		{
-			title: "Site Web Éducatif sur les Systèmes d'Exploitation",
+			title: "Educational Website on Operating Systems",
 			description:
-				"Cette plateforme se concentre sur la présentation méthodique d'un cours exhaustif portant sur les systèmes d'exploitation, en mettant particulièrement l'accent sur les algorithmes de pagination. Elle offre une présentation approfondie agrémentée d'exemples concrets, ainsi que la possibilité de générer des exemples animés personnalisés afin de faciliter la compréhension.",
+				"This platform focuses on delivering a systematic course on operating systems, with a particular emphasis on paging algorithms. It provides a comprehensive presentation with concrete examples and the capability to generate customized animated examples to enhance understanding.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "https://github.com",
+			skills: [
+				"CSS3",
+				"JavaScript",
+				"XAMPP",
+				"bootstrap",
+				"HTML5",
+				"PHP",
+			],
 		},
 	],
 };
