@@ -7,7 +7,7 @@
 .work {
 	display: flex;
 	padding-bottom: 40px;
-	width: 400px;
+	width: 450px;
 }
 
 .work-image {
@@ -36,9 +36,23 @@
 
 .work-duration {
 	position: absolute;
-	width: 350px;
+	width: 350%;
 	font-size: 12px;
 	padding-top: 20px;
 	text-align: right;
 	color: var(--tertiary-color);
 }
+@media (max-width: 500px) {
+	
+  
+	.work-duration {
+		margin-top: 5%;
+	}
+  }
+  @media (max-width: 1500px) {
+	
+  
+	.work-duration {
+		margin-top: 0%;
+	}
+  }

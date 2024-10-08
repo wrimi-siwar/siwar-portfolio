@@ -167,6 +167,15 @@ const Homepage = () => {
 									className="homepage-social-icon"
 								/>
 							</a>
+							<a
+								href={"Siwar_Wrimi_CV.pdf"}
+								target="_blank"
+								rel="noreferrer"
+								download="Siwar_Wrimi_CV.pdf"
+								className="download-button"
+							>
+							Resume
+							</a>
 						</div>
 
 						<div className="homepage-projects">

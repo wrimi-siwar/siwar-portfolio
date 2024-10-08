@@ -7,12 +7,23 @@ import "./styles/works.css";
 
 const Works = () => {
 	return (
-		<div className="works">
+		<div className="works ">
 			<Card
 				icon={faBriefcase}
 				title="Experience"
 				body={
 					<div className="works-body">
+						<div className="work">
+							<img
+								src="./ATS.jpeg"
+								alt="facebook"
+								className="work-image"
+							/>
+							<div className="work-title">ATS Digital-Dev </div>
+							<div className="work-subtitle">
+							QA Developer</div>
+							<div className="work-duration">Février - August 2024</div>
+						</div>
 						<div className="work">
 							<img
 								src="./qramer.jpg"
@@ -45,7 +56,7 @@ const Works = () => {
 							/>
 							<div className="work-title">Belmwassel  </div>
 							<div className="work-subtitle">
-						Full Stack Developer
+							web and mobile developer
 																					</div>
 							<div className="work-duration">March - June 2021</div>
 						</div>

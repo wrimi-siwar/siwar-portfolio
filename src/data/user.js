@@ -1,6 +1,6 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
+		title: "siwar's portfolio",
 		name: "Tharindu N.",
 		email: "wrimi.siwar14@gmail.com",
 		logo: "S.W",
@@ -14,15 +14,15 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Full-stack web developer.",
+		title: "Software Engineer.",
 		description:
-			" As a highly motivated software engineering student, my passion for full-stack development drives me forward. I possess a meticulous attention to detail and an unquenchable thirst for knowledge, consistently seeking opportunities to expand my skill set. Whether it involves crafting cutting-edge web applications or tackling intricate systems integrations, I constantly strive to push the boundaries of what's achievable. Beyond coding, you'll often find me immersed in the latest tech trends or embracing new technologies. I perpetually seek fresh challenges and eagerly embrace collaborative opportunities with fellow enthusiasts in the field. My ultimate objective is to leverage my technical prowess and creativity to develop solutions that drive business growth and enhance the lives of individuals. Join me on this journey, and together, let's revolutionize the future!",
+			" As a passionate and driven software engineer, I am deeply committed to full-stack development and constantly seeking to refine my expertise. With a keen eye for detail and a relentless curiosity, I embrace every opportunity to expand my skill set, from building advanced web applications to solving complex system integrations. I thrive on exploring new technologies and keeping up with the latest trends in the tech world. Always eager to take on new challenges, I value collaboration and teamwork as essential tools for innovation. My ultimate goal is to harness my technical abilities and creativity to develop solutions that not only fuel business growth but also make a meaningful impact on people's lives. Let's connect and shape the future together!",
 	},
 
 	about: {
 		title: "I’m Siwar Wrimi.",
 		description:
-			" As a highly motivated software engineering student, my passion for full-stack development drives me forward. I possess a meticulous attention to detail and an unquenchable thirst for knowledge, consistently seeking opportunities to expand my skill set. Whether it involves crafting cutting-edge web applications or tackling intricate systems integrations, I constantly strive to push the boundaries of what's achievable. Beyond coding, you'll often find me immersed in the latest tech trends or embracing new technologies. I perpetually seek fresh challenges and eagerly embrace collaborative opportunities with fellow enthusiasts in the field. My ultimate objective is to leverage my technical prowess and creativity to develop solutions that drive business growth and enhance the lives of individuals. Join me on this journey, and together, let's revolutionize the future!",
+			"As a passionate and driven software engineer, I am deeply committed to full-stack development and constantly seeking to refine my expertise. With a keen eye for detail and a relentless curiosity, I embrace every opportunity to expand my skill set, from building advanced web applications to solving complex system integrations. I thrive on exploring new technologies and keeping up with the latest trends in the tech world. Always eager to take on new challenges, I value collaboration and teamwork as essential tools for innovation. My ultimate goal is to harness my technical abilities and creativity to develop solutions that not only fuel business growth but also make a meaningful impact on people's lives. Let's connect and shape the future together!",
 	},
 
 	articles: {
@@ -31,18 +31,22 @@ const INFO = {
 			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
 	},
 	skills: [
+		"Node.js",
+		"React.js",
 		"JavaScript",
 		"TypeScript",
-		"Java",
-		"React.js",
-		"Material UI",
-		"Node.js",
 		"Express.js",
+		"Material UI",
 		"MongoDB",
 		"MySQL",
-		"Android",
+		"Docker",
 		"Git",
+		"GitLab",
+		"JIRA",
 		"Agile",
+		"Cypress",
+		"Tests E2E",
+		
 	],
 	projects: [
 		{
@@ -54,14 +58,19 @@ const INFO = {
 			link: "https://github.com",
 			skills: ["MongoDB", " ExpressJS ", "ReactJS", "NodeJS"],
 		},
-
+		{
+			title: "task-manager",
+			description:
+"Our app makes it easy to keep track of all your tasks and stay organized. With our intuitive user interface, you can quickly create new tasks, set due dates and reminders, and easily mark tasks as complete. Our app also features a powerful search function, making it easy to find the tasks you need when you need them",			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			linkText: "View Project",
+			link: "https://github.com/wrimi-siwar/task-maneger-android",
+			skills: ["Firebase", " Android "],
+		},
 		{
 			title: "Mobile and Web Application for BELMWASSEL Delivery Management",
 			description:
 				"The project represents a complete renovation of BELMWASSEL, incorporating a groundbreaking mobile application developed in React Native, an optimized website built with Angular, and a robust backend based on Spring Boot. In addition to delivery features, the project expands its capabilities by introducing automated access management for various users and a dedicated statistics section to facilitate informed decision-making.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
-			link: "https://github.com",
+ 			link: "https://github.com/wrimi-siwar/Gestion-livraison",
 			skills: ["AngularJS ", "Spring Boot ", "React native", "Mysql"],
 		},
 
@@ -91,7 +100,7 @@ const INFO = {
 				"COVID-19 Tracking: Global Administration & Data; An Innovative COVID-19 Management Project that incorporates features, class structures, and interfaces for both administrators and users. Built on a robust Java architecture, this solution provides precise management and crucial information about the pandemic. ",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/wrimi-siwar/Covid19-Management-java",
 			skills: ["Oracle Database", " Oracle", "Java Swing", "Java"],
 		},
 		{
@@ -109,7 +118,7 @@ const INFO = {
 				"Nadhemni (Organize Me) is a desktop application designed to enhance the organization of your personal and professional life. This comprehensive solution enables you to manage your schedule, appointments, tasks, as well as important financial aspects, including invoice tracking. With 'Nadhemni', simplify your daily life and take control of your responsibilities and productivity.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/wrimi-siwar/nadhamni",
 			skills: [" Microsoft SQL Server", " C#"],
 		},
 		{
@@ -118,7 +127,7 @@ const INFO = {
 				"This platform focuses on delivering a systematic course on operating systems, with a particular emphasis on paging algorithms. It provides a comprehensive presentation with concrete examples and the capability to generate customized animated examples to enhance understanding.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/wrimi-siwar/Operating-Systems-FiFo-LRU-Optimum",
 			skills: [
 				"CSS3",
 				"JavaScript",
